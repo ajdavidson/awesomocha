@@ -5,9 +5,9 @@
     "passes": 8,
     "pending": 3,
     "failures": 2,
-    "start": "2021-08-31T11:18:07.100Z",
-    "end": "2021-08-31T11:18:07.111Z",
-    "duration": 11,
+    "start": "2021-08-31T19:37:14.283Z",
+    "end": "2021-08-31T19:37:14.299Z",
+    "duration": 16,
     "testsRegistered": 13,
     "passPercent": 80,
     "pendingPercent": 23.076923076923077,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "8abdfe3d-df35-4bfa-a4ae-5d1b8e7b1c84",
+      "uuid": "10ec5708-3dfb-44a6-b5aa-9fe1b0afd603",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a9c02360-3a6b-4e40-91dd-1984cf554db6",
+          "uuid": "9dbca0ce-de97-421c-91d3-2d7a8aa555ee",
           "title": "#sum()",
           "fullFile": "/Users/ajdavidson/Desktop/test/awesomocha/calc.test.js",
           "file": "/calc.test.js",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "a1666614-c259-471c-9a72-b57d3d3f80e2",
+              "uuid": "839d59e1-669a-453c-bdc5-7f2cb9330d05",
               "title": "without arguments",
               "fullFile": "/Users/ajdavidson/Desktop/test/awesomocha/calc.test.js",
               "file": "/calc.test.js",
@@ -47,7 +47,7 @@
                   "title": "should return 0",
                   "fullTitle": "#sum() without arguments should return 0",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -56,26 +56,26 @@
                   "context": null,
                   "code": "expect(sum()).to.equal(0)",
                   "err": {},
-                  "uuid": "d53e990c-b7a0-4777-b3bd-d3dfc5da8d71",
-                  "parentUUID": "a1666614-c259-471c-9a72-b57d3d3f80e2",
+                  "uuid": "f1a1108e-2eb8-4b64-92af-6f17628c4ae7",
+                  "parentUUID": "839d59e1-669a-453c-bdc5-7f2cb9330d05",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "d53e990c-b7a0-4777-b3bd-d3dfc5da8d71"
+                "f1a1108e-2eb8-4b64-92af-6f17628c4ae7"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 0,
+              "duration": 1,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "239e21a2-437e-49ce-b7d1-4e23b4029781",
+              "uuid": "e131fef8-43ce-4af8-8883-74a101041848",
               "title": "should skip this group",
               "fullFile": "/Users/ajdavidson/Desktop/test/awesomocha/calc.test.js",
               "file": "/calc.test.js",
@@ -95,8 +95,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "b95f7821-908d-4e51-9b01-aaaaaee99079",
-                  "parentUUID": "239e21a2-437e-49ce-b7d1-4e23b4029781",
+                  "uuid": "f1f49256-7681-49ea-84b1-925b217d15f1",
+                  "parentUUID": "e131fef8-43ce-4af8-8883-74a101041848",
                   "isHook": false,
                   "skipped": false
                 },
@@ -113,8 +113,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "afc0da64-7a88-4e25-971d-ac57dc3b4686",
-                  "parentUUID": "239e21a2-437e-49ce-b7d1-4e23b4029781",
+                  "uuid": "1553d702-f195-40a4-bfd2-606b1b45db75",
+                  "parentUUID": "e131fef8-43ce-4af8-8883-74a101041848",
                   "isHook": false,
                   "skipped": false
                 }
@@ -123,8 +123,8 @@
               "passes": [],
               "failures": [],
               "pending": [
-                "b95f7821-908d-4e51-9b01-aaaaaee99079",
-                "afc0da64-7a88-4e25-971d-ac57dc3b4686"
+                "f1f49256-7681-49ea-84b1-925b217d15f1",
+                "1553d702-f195-40a4-bfd2-606b1b45db75"
               ],
               "skipped": [],
               "duration": 0,
@@ -133,7 +133,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "19b8f182-6b2b-417a-9468-6d8fe3ebc855",
+              "uuid": "b0c17903-eacb-4a51-b92e-50def9dfabd4",
               "title": "with number arguments",
               "fullFile": "/Users/ajdavidson/Desktop/test/awesomocha/calc.test.js",
               "file": "/calc.test.js",
@@ -153,8 +153,8 @@
                   "context": null,
                   "code": "expect(sum(1, 2, 3, 4, 5)).to.equal(15)",
                   "err": {},
-                  "uuid": "ec69a302-d365-427c-bd21-e859ed14cd4a",
-                  "parentUUID": "19b8f182-6b2b-417a-9468-6d8fe3ebc855",
+                  "uuid": "6216506a-3af9-4618-b961-333d9d48fca2",
+                  "parentUUID": "b0c17903-eacb-4a51-b92e-50def9dfabd4",
                   "isHook": false,
                   "skipped": false
                 },
@@ -162,7 +162,7 @@
                   "title": "should fail on purpose",
                   "fullTitle": "#sum() with number arguments should fail on purpose",
                   "timedOut": false,
-                  "duration": 1,
+                  "duration": 0,
                   "state": "failed",
                   "speed": null,
                   "pass": false,
@@ -175,8 +175,8 @@
                     "estack": "AssertionError: expected 15 to equal 5\n    at Context.<anonymous> (calc.test.js:26:43)\n    at processImmediate (internal/timers.js:464:21)",
                     "diff": "- 15\n+ 5\n"
                   },
-                  "uuid": "96c40b6a-474d-4413-939d-1c62d1f8a279",
-                  "parentUUID": "19b8f182-6b2b-417a-9468-6d8fe3ebc855",
+                  "uuid": "ab4ea49a-5679-4329-9635-5ad71d298e79",
+                  "parentUUID": "b0c17903-eacb-4a51-b92e-50def9dfabd4",
                   "isHook": false,
                   "skipped": false
                 },
@@ -193,29 +193,29 @@
                   "context": null,
                   "code": "expect(sum(5)).to.equal(5)",
                   "err": {},
-                  "uuid": "6a65892a-8c52-44d1-b203-10839529a9b7",
-                  "parentUUID": "19b8f182-6b2b-417a-9468-6d8fe3ebc855",
+                  "uuid": "b6ec1675-b622-43fb-a82f-d8520409db44",
+                  "parentUUID": "b0c17903-eacb-4a51-b92e-50def9dfabd4",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "ec69a302-d365-427c-bd21-e859ed14cd4a",
-                "6a65892a-8c52-44d1-b203-10839529a9b7"
+                "6216506a-3af9-4618-b961-333d9d48fca2",
+                "b6ec1675-b622-43fb-a82f-d8520409db44"
               ],
               "failures": [
-                "96c40b6a-474d-4413-939d-1c62d1f8a279"
+                "ab4ea49a-5679-4329-9635-5ad71d298e79"
               ],
               "pending": [],
               "skipped": [],
-              "duration": 2,
+              "duration": 1,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "5c20638c-3b06-4cf9-9661-9a4d1efc806f",
+              "uuid": "e8a75c49-fd39-44ed-b9a3-430e3d39c9db",
               "title": "with non-number arguments",
               "fullFile": "/Users/ajdavidson/Desktop/test/awesomocha/calc.test.js",
               "file": "/calc.test.js",
@@ -235,15 +235,15 @@
                   "context": null,
                   "code": "expect(function () {\n    sum(1, 2, '3', [4], 5)\n}).to.throw(TypeError, 'sum() expects only numbers.')",
                   "err": {},
-                  "uuid": "8cd68fab-9195-4d6e-b921-f4c6c18b9b76",
-                  "parentUUID": "5c20638c-3b06-4cf9-9661-9a4d1efc806f",
+                  "uuid": "08420817-9cd3-4a97-92f4-f3671e88f554",
+                  "parentUUID": "e8a75c49-fd39-44ed-b9a3-430e3d39c9db",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "8cd68fab-9195-4d6e-b921-f4c6c18b9b76"
+                "08420817-9cd3-4a97-92f4-f3671e88f554"
               ],
               "failures": [],
               "pending": [],
@@ -264,7 +264,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "4f814c3c-b90d-433c-a78b-406ad79b0107",
+          "uuid": "9673805d-bab4-49bd-badf-19f64ce9e3ad",
           "title": "#diff()",
           "fullFile": "/Users/ajdavidson/Desktop/test/awesomocha/calc.test.js",
           "file": "/calc.test.js",
@@ -273,7 +273,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "1c29eba7-dce8-4d9f-8529-56e594fb730b",
+              "uuid": "207df320-a619-4817-8151-2b5bc139cba9",
               "title": "without arguments",
               "fullFile": "/Users/ajdavidson/Desktop/test/awesomocha/calc.test.js",
               "file": "/calc.test.js",
@@ -293,15 +293,15 @@
                   "context": null,
                   "code": "expect(diff()).to.equal(0)",
                   "err": {},
-                  "uuid": "34fbbd9a-f275-4abe-99ee-c128c5bc4958",
-                  "parentUUID": "1c29eba7-dce8-4d9f-8529-56e594fb730b",
+                  "uuid": "34c1ff14-c2a1-433e-993a-01545385f505",
+                  "parentUUID": "207df320-a619-4817-8151-2b5bc139cba9",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "34fbbd9a-f275-4abe-99ee-c128c5bc4958"
+                "34c1ff14-c2a1-433e-993a-01545385f505"
               ],
               "failures": [],
               "pending": [],
@@ -312,7 +312,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "204f3f22-c560-4ecd-b37f-210dc3d0a9d6",
+              "uuid": "56f4da99-8a94-438a-8f05-289c7b3f463a",
               "title": "with number arguments",
               "fullFile": "/Users/ajdavidson/Desktop/test/awesomocha/calc.test.js",
               "file": "/calc.test.js",
@@ -332,8 +332,8 @@
                   "context": null,
                   "code": "expect(diff(9, 5)).to.equal(4)",
                   "err": {},
-                  "uuid": "83468381-9530-4d56-9877-1cd7243a9178",
-                  "parentUUID": "204f3f22-c560-4ecd-b37f-210dc3d0a9d6",
+                  "uuid": "e78aa60a-5b8a-458d-a37d-7cf5338c1f57",
+                  "parentUUID": "56f4da99-8a94-438a-8f05-289c7b3f463a",
                   "isHook": false,
                   "skipped": false
                 },
@@ -341,7 +341,7 @@
                   "title": "should return argument when only one argument is passed",
                   "fullTitle": "#diff() with number arguments should return argument when only one argument is passed",
                   "timedOut": false,
-                  "duration": 1,
+                  "duration": 0,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -350,8 +350,8 @@
                   "context": null,
                   "code": "expect(diff(5)).to.equal(5)",
                   "err": {},
-                  "uuid": "3934ae38-5818-4abc-938f-9e70c6ab4901",
-                  "parentUUID": "204f3f22-c560-4ecd-b37f-210dc3d0a9d6",
+                  "uuid": "fecca7e4-65f1-4bfc-9d6e-eac1c5da5b4b",
+                  "parentUUID": "56f4da99-8a94-438a-8f05-289c7b3f463a",
                   "isHook": false,
                   "skipped": false
                 },
@@ -359,7 +359,7 @@
                   "title": "should fail on purpose",
                   "fullTitle": "#diff() with number arguments should fail on purpose",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "failed",
                   "speed": null,
                   "pass": false,
@@ -372,19 +372,19 @@
                     "estack": "AssertionError: expected 5 to equal 0\n    at Context.<anonymous> (calc.test.js:59:32)\n    at processImmediate (internal/timers.js:464:21)",
                     "diff": "- 5\n+ 0\n"
                   },
-                  "uuid": "df435fca-ee22-46ff-9edc-f48a1397c64c",
-                  "parentUUID": "204f3f22-c560-4ecd-b37f-210dc3d0a9d6",
+                  "uuid": "a865269a-09ab-4b59-9f9d-9aee68fad72f",
+                  "parentUUID": "56f4da99-8a94-438a-8f05-289c7b3f463a",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "83468381-9530-4d56-9877-1cd7243a9178",
-                "3934ae38-5818-4abc-938f-9e70c6ab4901"
+                "e78aa60a-5b8a-458d-a37d-7cf5338c1f57",
+                "fecca7e4-65f1-4bfc-9d6e-eac1c5da5b4b"
               ],
               "failures": [
-                "df435fca-ee22-46ff-9edc-f48a1397c64c"
+                "a865269a-09ab-4b59-9f9d-9aee68fad72f"
               ],
               "pending": [],
               "skipped": [],
@@ -394,7 +394,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "252c2e30-cce7-4b8d-9734-01f0ba8d74ab",
+              "uuid": "44699f4b-cf45-4ee3-a018-1521fad27c1f",
               "title": "with non-number arguments",
               "fullFile": "/Users/ajdavidson/Desktop/test/awesomocha/calc.test.js",
               "file": "/calc.test.js",
@@ -414,8 +414,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "4d2d6215-4bb2-4b8c-a19e-5621f8553b57",
-                  "parentUUID": "252c2e30-cce7-4b8d-9734-01f0ba8d74ab",
+                  "uuid": "d86dbf7b-774c-47f2-b8d2-04930b29816e",
+                  "parentUUID": "44699f4b-cf45-4ee3-a018-1521fad27c1f",
                   "isHook": false,
                   "skipped": false
                 },
@@ -432,19 +432,19 @@
                   "context": null,
                   "code": "expect(function () {\n    diff(1, 2, '3', [4], 5)\n}).to.throw(TypeError, 'diff() expects only numbers.')",
                   "err": {},
-                  "uuid": "782d15d3-9d04-4493-af25-853e56c2b7d8",
-                  "parentUUID": "252c2e30-cce7-4b8d-9734-01f0ba8d74ab",
+                  "uuid": "b8efc28e-106b-4590-8bfb-d58dbfb7a0c5",
+                  "parentUUID": "44699f4b-cf45-4ee3-a018-1521fad27c1f",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "782d15d3-9d04-4493-af25-853e56c2b7d8"
+                "b8efc28e-106b-4590-8bfb-d58dbfb7a0c5"
               ],
               "failures": [],
               "pending": [
-                "4d2d6215-4bb2-4b8c-a19e-5621f8553b57"
+                "d86dbf7b-774c-47f2-b8d2-04930b29816e"
               ],
               "skipped": [],
               "duration": 0,
@@ -490,7 +490,9 @@
       "version": "6.2.2"
     },
     "marge": {
-      "options": null,
+      "options": {
+        "enableCharts": "true"
+      },
       "version": "5.2.0"
     }
   }
